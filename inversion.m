@@ -28,8 +28,8 @@ for i=1:numcykle
     
     if(mod(i,50) == 0)
        
-       mainPop = [genr(:,:,1);genr(:,:,2);genr(:,:,3);genr(:,:,4);genr(:,:,5)];
-       [minRet, minFit] = Compare(mainPop, minFit, minRet, A);
+       mainPop = [genr(:,:,1);genr(:,:,2);genr(:,:,3);genr(:,:,4);genr(:,:,5)]; % spojenie populacii z ostrovov do jednej
+       [minRet, minFit] = Compare(mainPop, minFit, minRet, A); % vyhodnotenie celkovej populacie o velkosti 50
         
     end
     

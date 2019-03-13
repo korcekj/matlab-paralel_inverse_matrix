@@ -16,5 +16,5 @@ function [Pop, Fit] = GenericAlgorithm(Pop, Fit, Space, A)
 
     Pop = [newPop1; MutedPopA1; MutedPopA2];
     
-    Fit=fitness(Pop, A); % znovu vyhodnotenie fitness funkcie
+    Fit=fitness(Pop, A); 
 end
